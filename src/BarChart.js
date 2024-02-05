@@ -152,9 +152,9 @@ export default function BarChart() {
 
   return (
     <div>
-      <div className="chartHeader">World Nuclear Inventory</div>
+      <div className="chartHeader">Global Nuclear Inventory</div>
       <div className="chartSubheader">
-        Estimated nuclear weapon count by nation (2024)
+        Estimated nuclear weapon count by nation (2023)
       </div>
       <svg ref={svgRef}></svg>
       <div className="chartFooter">

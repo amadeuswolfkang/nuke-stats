@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 :root {
   --color-bg: #1a1a1a;
   --color-main: #ffbb00;
@@ -22,6 +24,51 @@
   font-weight: 100;
 }
 
-.text {
+.main {
+  width: 35vw;
+  margin: auto;
+  text-align: left;
+}
 
+.text {
+  font-family: "Roboto", "sans-serif";
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+hr {
+  margin-top: 4%;
+  margin-bottom: 1%;
+  width: 35vw;
+  background-color: var(--color-main);
+  height: 1px;
+  border: 0;
+  opacity: 35%;
+}
+
+.articleHeader {
+  font-family: "Roboto Condensed", "sans-serif";
+  font-weight: 600;
+  font-size: 48px;
+  color: var(--header-text-color);
+}
+
+.articleSubheader {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--small-text-color);
+}
+
+.flagContainer {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 16px;
+  margin-left: 20%;
+  margin-right: auto;
+  width: 30%;
+  line-height: 2rem;
+  text-align: right;
+  white-space: nowrap; 
 }
