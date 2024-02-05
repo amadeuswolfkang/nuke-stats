@@ -1,0 +1,83 @@
+[
+  {
+    "Entity": "China",
+    "Code": "CHN",
+    "Year": 2023,
+    "Number of deployed strategic nuclear warheads": 0,
+    "Number of deployed nonstrategic nuclear warheads": 0,
+    "Number of nondeployed nuclear warheads in reserve": 410,
+    "Number of retired nuclear warheads": 0
+  },
+  {
+    "Entity": "France",
+    "Code": "FRA",
+    "Year": 2023,
+    "Number of deployed strategic nuclear warheads": 280,
+    "Number of deployed nonstrategic nuclear warheads": 0,
+    "Number of nondeployed nuclear warheads in reserve": 10,
+    "Number of retired nuclear warheads": 0
+  },
+  {
+    "Entity": "India",
+    "Code": "IND",
+    "Year": 2023,
+    "Number of deployed strategic nuclear warheads": 0,
+    "Number of deployed nonstrategic nuclear warheads": 0,
+    "Number of nondeployed nuclear warheads in reserve": 164,
+    "Number of retired nuclear warheads": 0
+  },
+  {
+    "Entity": "Israel",
+    "Code": "ISR",
+    "Year": 2023,
+    "Number of deployed strategic nuclear warheads": 0,
+    "Number of deployed nonstrategic nuclear warheads": 0,
+    "Number of nondeployed nuclear warheads in reserve": 90,
+    "Number of retired nuclear warheads": 0
+  },
+  {
+    "Entity": "North Korea",
+    "Code": "PRK",
+    "Year": 2023,
+    "Number of deployed strategic nuclear warheads": 0,
+    "Number of deployed nonstrategic nuclear warheads": 0,
+    "Number of nondeployed nuclear warheads in reserve": 30,
+    "Number of retired nuclear warheads": 0
+  },
+  {
+    "Entity": "Pakistan",
+    "Code": "PAK",
+    "Year": 2023,
+    "Number of deployed strategic nuclear warheads": 0,
+    "Number of deployed nonstrategic nuclear warheads": 0,
+    "Number of nondeployed nuclear warheads in reserve": 170,
+    "Number of retired nuclear warheads": 0
+  },
+  {
+    "Entity": "Russia",
+    "Code": "RUS",
+    "Year": 2023,
+    "Number of deployed strategic nuclear warheads": 1674,
+    "Number of deployed nonstrategic nuclear warheads": 0,
+    "Number of nondeployed nuclear warheads in reserve": 2815,
+    "Number of retired nuclear warheads": 1400
+  },
+  {
+    "Entity": "United Kingdom",
+    "Code": "GBR",
+    "Year": 2023,
+    "Number of deployed strategic nuclear warheads": 120,
+    "Number of deployed nonstrategic nuclear warheads": 0,
+    "Number of nondeployed nuclear warheads in reserve": 105,
+    "Number of retired nuclear warheads": 0
+  },
+  {
+    "Entity": "United States",
+    "Code": "USA",
+    "Year": 2023,
+    "Number of deployed strategic nuclear warheads": 1670,
+    "Number of deployed nonstrategic nuclear warheads": 100,
+    "Number of nondeployed nuclear warheads in reserve": 1938,
+    "Number of retired nuclear warheads": 1536
+  }
+]
