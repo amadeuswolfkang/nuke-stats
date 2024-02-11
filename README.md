@@ -1,5 +1,4 @@
-# nuke-tracker
+# nuke-stats
 
-This project was bootstrapped with create-react-app.
-
-Sandbox for d3 visualization. For learning.
+nuke-stats is a web page hosting my d3 visualizations.
+The project was bootstrapped with create-react-app.

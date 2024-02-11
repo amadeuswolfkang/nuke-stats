@@ -8,7 +8,6 @@ import "./style.css";
 export default function BarChart() {
   const svgRef = useRef();
 
-  // Define graph dimensions.
   const width = 740;
   const height = 400;
   const marginTop = 20;
@@ -42,11 +41,6 @@ export default function BarChart() {
       Israel: "https://flagicons.lipis.dev/flags/4x3/il.svg",
     };
 
-    // Filter out countries if needed.
-    // data = data.filter((item) => {
-    //   return item.country !== "World";
-    // });
-
     // Sort data descending by nuclearWeaponsByCountry_totalWeapons.
     data.sort((a, b) =>
       d3.descending(
@@ -55,14 +49,14 @@ export default function BarChart() {
       )
     );
 
-    // Define the y scale
+    // Y scale.
     const y = d3
       .scaleBand()
       .domain(data.map((d) => d.country))
       .range([marginTop, height - marginBottom])
       .padding(0.1);
 
-    // Define the x scale
+    // X scale.
     const x = d3
       .scaleLinear()
       .domain([0, d3.max(data, (d) => d.numTotalWarheads)])
@@ -100,7 +94,7 @@ export default function BarChart() {
       // Bar color.
       .style("fill", "var(--color-main)");
 
-    // Add flags next to the country names on the y-axis
+    // Add flags next to the country names on the y-axis.
     svg
       .selectAll("image")
       .data(data)
