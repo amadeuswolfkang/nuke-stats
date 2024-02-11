@@ -74,16 +74,16 @@ function App() {
           <div className="flagContainerWrapper">
             <ul className="flagContainer">
               <li>
-                India <Flag style={{ marginLeft: "2%" }} country={"IN"} />
+                India <Flag style={{ marginLeft: "2%" , position:"relative", top: "0.3rem"}} country={"IN"} />
               </li>
               <li>
-                Israel <Flag style={{ marginLeft: "2%" }} country={"IL"} />
+                Israel <Flag style={{ marginLeft: "2%" , position:"relative", top: "0.3rem"}} country={"IL"} />
               </li>
               <li>
-                North Korea <Flag style={{ marginLeft: "2%" }} country={"KP"} />
+                North Korea <Flag style={{ marginLeft: "2%" , position:"relative", top: "0.3rem"}} country={"KP"} />
               </li>
               <li>
-                Pakistan <Flag style={{ marginLeft: "2%" }} country={"PK"} />
+                Pakistan <Flag style={{ marginLeft: "2%" , position:"relative", top: "0.3rem"}} country={"PK"} />
               </li>
             </ul>
           </div>

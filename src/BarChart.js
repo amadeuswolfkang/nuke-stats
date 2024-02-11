@@ -42,12 +42,7 @@ export default function BarChart() {
     };
 
     // Sort data descending by nuclearWeaponsByCountry_totalWeapons.
-    data.sort((a, b) =>
-      d3.descending(
-        a.numTotalWarheads,
-        b.numTotalWarheads
-      )
-    );
+    data.sort((a, b) => d3.descending(a.numTotalWarheads, b.numTotalWarheads));
 
     // Y scale.
     const y = d3
@@ -130,10 +125,9 @@ export default function BarChart() {
       .style("font-family", "Roboto")
       .style("font-size", "14px")
       .style("font-weight", "300")
-      .style("fill", "var(--color-main") // Change the color here
+      .style("fill", "var(--color-main")
       .attr("dx", "-40"); // Adjust the spacing between country name and tick
 
-    // Add the x-axis with specified number of ticks.
     // The effect will rerun when the dependency array changes.
     svg
       .append("g")
@@ -155,7 +149,6 @@ export default function BarChart() {
         Source: Federation of American Scientists (2023) – with minor processing
         by Our World in Data
       </div>
-
     </div>
   );
 }
