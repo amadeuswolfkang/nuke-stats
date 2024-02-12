@@ -62,7 +62,7 @@ export default function BarChart() {
       .select(svgRef.current)
       .attr("width", width)
       .attr("height", height)
-      .attr("viewBox", [0, 0, width, height])
+      .attr("viewBox", [0, 0, width, height]) // Responsive SVG on window resize.
       .attr("style", "max-width: 100%; height: auto;");
 
     // Render bars.
@@ -74,16 +74,22 @@ export default function BarChart() {
 
       // Set x and y position of bars.
       .attr("x", marginLeft)
+
       .attr("y", function (d) {
         return y(d.country);
       })
 
-      // Set width and height of bars.
+      // Set height of bars and make them transition.
+      .attr("height", y.bandwidth()) // Set the height of the bar
+      .transition()
+      .duration(600)
+      .ease(d3.easeSinOut)
+      .delay(function (d, i) {
+        return i * 100; // Delay each transition by 100ms more than the previous one
+      })
+      // Set width of bars.
       .attr("width", function (d) {
         return x(d.numTotalWarheads) - marginLeft;
-      })
-      .attr("height", function (d) {
-        return y.bandwidth();
       })
 
       // Bar color.

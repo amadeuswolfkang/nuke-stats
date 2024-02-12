@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 :root {
   --color-bg: #1a1a1a;
@@ -34,7 +35,7 @@
 }
 
 .graph {
-  width: 100vw;
+  width: 90vw;
   margin: auto;
 }
 
@@ -43,7 +44,6 @@
   font-weight: 300;
   font-size: 1.2rem;
   line-height: 1.5rem;
-
 }
 
 hr {
@@ -64,14 +64,14 @@ hr {
 }
 
 .articleSubheader {
-  font-family: "Roboto";
+  font-family: "Roboto", "sans-serif";
   font-weight: 400;
   font-size: 20px;
   color: var(--color-main);
 }
 
 .articleAuthor {
-  font-family: "Roboto";
+  font-family: "Roboto", "sans-serif";
   font-weight: 500;
   font-size: 16px;
   color: var(--color-main);
@@ -79,14 +79,14 @@ hr {
 }
 
 ul.flagContainer {
-  font-family: "Roboto";
+  font-family: "Roboto", "sans-serif";
   font-weight: 300;
   font-size: 16px;
 
   line-height: 2rem;
   text-align: right;
 
-  list-style-type: none;  
+  list-style-type: none;
   padding: 0;
   display: inline-block;
   text-align: left;
@@ -94,14 +94,34 @@ ul.flagContainer {
 }
 
 .flagContainerWrapper {
-  /* font-family: "Roboto";
-  font-weight: 300;
-  font-size: 16px;
-  margin-left: 20%;
-  margin-right: auto;
-  width: 30%;
-  line-height: 2rem;
-  text-align: right;
-  white-space: nowrap;  */
   text-align: center;
+}
+
+.quote {
+  font-family: "Roboto Slab", "serif";
+  line-height: 2rem;
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.quoteAttribution {
+  font-family: "Roboto Slab", "serif";
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.minibar {
+  height: 0.5rem;
+  width: 4rem;
+  margin: 1rem;
+  background-color: var(--color-main);
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main {
+  /* overflow-x: hidden; */
 }

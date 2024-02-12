@@ -74,16 +74,48 @@ function App() {
           <div className="flagContainerWrapper">
             <ul className="flagContainer">
               <li>
-                India <Flag style={{ marginLeft: "2%" , position:"relative", top: "0.3rem"}} country={"IN"} />
+                India{" "}
+                <Flag
+                  style={{
+                    marginLeft: "2%",
+                    position: "relative",
+                    top: "0.3rem",
+                  }}
+                  country={"IN"}
+                />
               </li>
               <li>
-                Israel <Flag style={{ marginLeft: "2%" , position:"relative", top: "0.3rem"}} country={"IL"} />
+                Israel{" "}
+                <Flag
+                  style={{
+                    marginLeft: "2%",
+                    position: "relative",
+                    top: "0.3rem",
+                  }}
+                  country={"IL"}
+                />
               </li>
               <li>
-                North Korea <Flag style={{ marginLeft: "2%" , position:"relative", top: "0.3rem"}} country={"KP"} />
+                North Korea{" "}
+                <Flag
+                  style={{
+                    marginLeft: "2%",
+                    position: "relative",
+                    top: "0.3rem",
+                  }}
+                  country={"KP"}
+                />
               </li>
               <li>
-                Pakistan <Flag style={{ marginLeft: "2%" , position:"relative", top: "0.3rem"}} country={"PK"} />
+                Pakistan{" "}
+                <Flag
+                  style={{
+                    marginLeft: "2%",
+                    position: "relative",
+                    top: "0.3rem",
+                  }}
+                  country={"PK"}
+                />
               </li>
             </ul>
           </div>
@@ -112,6 +144,16 @@ function App() {
             military expenditure in 2022 according to SIPRI. It is no
             coincidence that 6 of the top 10 states with the highest military
             expenditure possess nuclear weapons.
+            <br />
+            <br />
+            <div className="quote">
+              “If that’s the case, we can have our own nuclear weapons pretty
+              quickly, given our scientific and technological capabilities.”
+            </div>
+            <div className="quoteAttribution">
+              — President Yoon Suk-yeol on South Korea's nuclear latency
+            </div>
+            <div className="minibar" />
             <br />
             <br />
             Some say that the presence of nuclear weapons ushered the world into
